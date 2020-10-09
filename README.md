@@ -21,7 +21,7 @@ Codes for input normalizationm, and feature selection
 Codes about parameter tuning for random forest, support vector machine, logistic regression, and artificial neural network
 
 ### 3. validation
-Codes for theshold decision, internal validation, and performance evaluation in the validation sets
+Codes for theshold decision, internal validation, and performance evaluation (sensitivity, specificity, PPV, NPV, f1, accuracy, auroc) in the validation sets
 
 ### 4. calibraion_plot
 Codes for plotting calibration curve, and calculating brier score to evaluate calibration
