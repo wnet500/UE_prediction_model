@@ -9,7 +9,7 @@ please refer to `features_details.csv` and `UE_sample_data.csv` in the datasets 
 
 > `features_details.csv` consists of features, description, type and details
 
-> `UE_sample_data.csv` shows the examples of the datasets used for modeling (note: this is not real patients' dataset)
+> `UE_sample_data.csv` shows the examples of the datasets used for modeling (Note that this is not real patients' dataset)
 
 ## python_code
 
