@@ -1,0 +1,68 @@
+features,description,type,details
+U_LM_left,Nearest value of left upper limb motor,numerical,"integer, range: 0 ~ 5"
+U_LM_right,Nearest value of right upper limb motor,numerical,"integer, range: 0 ~ 5"
+L_LM_left,Nearest value of left lower limb motor,numerical,"integer, range: 0 ~ 5"
+L_LM_right,Nearest value of right lower limb motor,numerical,"integer, range: 0 ~ 5"
+Age,Age,numerical,
+Sex,Sex,binary categorical,"0: Female, 1: Male"
+Operation_before,Whether a patient had Surgery before ICU admission,binary categorical,"0: No, 1: Yes"
+RASS,Nearest value of RASS,numerical,"integer, range: -5 ~ 5"
+N_RASS,Recording frequency of RASS for 8 hrs,numerical,
+Min_RASS,Minimun value of RASSs for 8 hrs,numerical,
+Max_RASS,Maximum value of RASSs for 8 hrs,numerical,
+Mean_RASS,Mean value of RASSs for 8 hrs,numerical,
+SD_RASS,Standard deviation of RASSs for 8 hrs,numerical,
+GCS_E,Nearest value of GCS (Eye),numerical,"integer, range: 1 ~ 4"
+GCS_M,Nearest value of GCS (Motor),numerical,"integer, range: 1 ~ 6"
+N_GCS,Recording frequency of GCS for 8 hrs,numerical,
+Min_GCS_E,Minimum value of GCSs (Eye) for 8 hrs,numerical,
+Max_GCS_E,Maximum value of GCSs (Eye) for 8 hrs,numerical,
+Mean_GCS_E,Mean value of GCSs (Eye) for 8 hrs,numerical,
+Min_GCS_M,Minimum value of GCSs (Motor) for 8 hrs,numerical,
+Max_GCS_M,Maximum value of GCSs (Motor) for 8 hrs,numerical,
+Mean_GCS_M,Mean value of GCSs (Motor) for 8 hrs,numerical,
+N_U_LM,Recording frequency of upper Limb Motor for 8 hrs,numerical,
+Min_U_LM_right,Minimum value of right upper limb motors for 8 hrs,numerical,
+Max_U_LM_right,Maximum value of right upper Limb Motors for 8 hrs,numerical,
+Mean_U_LM_right,Mean value of right upper limb motors for 8 hrs,numerical,
+Min_U_LM_left,Minimum value of left upper limb motors for 8 hrs,numerical,
+Max_U_LM_left,Maximum value of left upper Limb Motors for 8 hrs,numerical,
+Mean_U_LM_left,Mean value of left upper limb motors for 8 hrs,numerical,
+N_L_LM,Recording frequency of lower Limb Motor for 8 hrs,numerical,
+Min_L_LM_right,Minimum value of right lower limb motors for 8 hrs,numerical,
+Max_L_LM_right,Maximum value of right lower Limb Motors for 8 hrs,numerical,
+Mean_L_LM_right,Mean value of right lower limb motors for 8 hrs,numerical,
+Min_L_LM_left,Minimum value of left lower limb motors for 8 hrs,numerical,
+Max_L_LM_left,Maximum value of left lower Limb Motors for 8 hrs,numerical,
+Mean_L_LM_left,Mean value of left lower limb motors for 8 hrs,numerical,
+Restrain,Nearest value of use of restrain,binary categorical,"0: Not use, 1: use"
+N_Restrain,Recording frequency of Restrain for 8 hrs,numerical,
+N_CAM,Recording frequency of CAM-ICU for 8 hrs,numerical,
+N,Recording frequency of Negative in CAM-ICU for 8 hrs,numerical,
+P,Recording frequency of Positive in CAM-ICU for 8 hrs,numerical,
+Intubation_location_ER,Intubation location : ER,binary categorical,"0: No, 1: Yes"
+Intubation_location_ICU,Intubation location : ICU,binary categorical,"0: No, 1: Yes"
+Reason_for_ICU_Others,"Reason for ICU admission : Reasons other than respiratory, cardiovascular, and peri operative",binary categorical,"0: No, 1: Yes"
+Reason_for_ICU_Peri operative,Reason for ICU admission : Peri operative,binary categorical,"0: No, 1: Yes"
+Reason_for_ICU_Respiratory,Reason for ICU admission : Respiratory,binary categorical,"0: No, 1: Yes"
+CAM_N,Whether Nearest CAM-ICU value is Negative,binary categorical,"0: No, 1: Yes"
+Work_shift_time_D,Work shift : Day,binary categorical,"0: No, 1: Yes"
+Work_shift_time_E,Work shift : Evening,binary categorical,"0: No, 1: Yes"
+Work_shift_time_N,Work shift : Night,binary categorical,"0: No, 1: Yes"
+ABR_L_LM_left,Nearest value of Left lower limb motor : ABR (Absolute bad rest),binary categorical,"0: No, 1: Yes"
+ABR_L_LM_right,Nearest value of Right lower limb motor : ABR (Absolute bad rest),binary categorical,"0: No, 1: Yes"
+ABR_U_LM_left,Nearest value of Left upper limb motor : ABR (Absolute bad rest),binary categorical,"0: No, 1: Yes"
+ABR_U_LM_right,Nearest value of Right upper limb motor : ABR (Absolute bad rest),binary categorical,"0: No, 1: Yes"
+CAM_P,Whether Nearest CAM-ICU value is Positive,binary categorical,"0: No, 1: Yes"
+CAM_UTA,Whether Nearest CAM-ICU value is UTA (Unable to access),binary categorical,"0: No, 1: Yes"
+Intubation_location_OR,Intubation location : OR,binary categorical,"0: No, 1: Yes"
+Intubation_location_Ward or Others,"Intubation location : Ward or Others than ER, ICU and OR",binary categorical,"0: No, 1: Yes"
+Reason_for_ICU_Cardiovascular,Reason for ICU admission : Cardiovascular,binary categorical,"0: No, 1: Yes"
+SD_GCS_E,Standard deviation of GCSs (Eye) for 8 hrs,numerical,
+SD_GCS_M,Standard deviation of GCSs (Motor) for 8 hrs,numerical,
+SD_L_LM_left,Standard deviation of left lower limb motors for 8 hrs,numerical,
+SD_L_LM_right,Standard deviation of right lower limb motors for 8 hrs,numerical,
+SD_U_LM_left,Standard deviation of left upper limb motors for 8 hrs,numerical,
+SD_U_LM_right,Standard deviation of right upper limb motors for 8 hrs,numerical,
+UTA,Recording frequency of UTA (Unable to access) in CAM-ICU for 8 hrs,numerical,
+Outcome,Extubation outcome,binary categorical,"0: UE not occurred, 1: UE occurred"
