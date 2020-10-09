@@ -30,3 +30,6 @@ Codes for decision curve to check clinical usefulness of the model
 
 ### 1. calibraion_evaluation
 Codes for The Integrated Calibration Index (ICI) and the Hosmer-Lemeshow goodness-of-fit statistic to evaluate calibration
+
+## 
+*** Note that all codes are executable ONLY if your own data exist
